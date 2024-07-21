@@ -137,6 +137,12 @@ body {
     animation: love 5s ease-in-out infinite;
 }
 
+
+.animate-dark {
+    color: #102C57;
+    animation: love 5s ease-in-out infinite;
+}
+
 .dark-section {
     margin-top: -0.5rem;
     margin-bottom: -0.5rem;
