@@ -43,7 +43,7 @@ $(document).ready(function () {
 
         const duration = 15 * 1000;
         const animationEnd = Date.now() + duration;
-        const colors = ["#6b08ff", "#102C57", "#29eaff"];
+        const colors = ["#E26EE5", "#F3F8FF", "#7E30E1"];
 
         const randomInRange = (min, max) => {
             return Math.random() * (max - min) + min;
@@ -84,7 +84,7 @@ $(document).ready(function () {
 
     ///ANIMATION ENTER
     const animationOpen = () => {
-        const colors = ["#6b08ff", "#102C57", "#29eaff"];
+        const colors = ["#E26EE5", "#F3F8FF", "#7E30E1"];
         confetti({
             origin: { y: 1 },
             zIndex: 1057,
